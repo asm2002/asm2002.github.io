@@ -14,9 +14,8 @@
 
     <div id="header">
         <div class="container">
-
             <nav>
-                <img src="images/logo.svg" class="logo">
+                <img src="images/logo.svg" class="logo" alt="Andrew Mohammed">
                 <ul>
                     <li><a href="#">Home</a></li>
                     <li><a href="#">About</a></li>
@@ -24,15 +23,145 @@
                     <li><a href="#">Experience</a></li>
                 </ul>
             </nav>
-
             <div class="header-text">
                 <p>Game Programmer<br>Software Developer</p>
                 <h1>Hi, I'm Andrew!</h1>
             </div>
-
+            
         </div>
     </div>
 
+
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="images/lojam_2024.jpg">
+                    <p>Me and my friends at LoJam x GDS 2024</p>
+                </div>
+                <div class="about-col-2">
+                    <h1 class="subtitle">About Me</h1>
+                    <p>I am a Computer Science student at the University of Western Ontario 
+                        that is doing a minor in Game Programming. I have experience with most
+                        programming languages, and with Unity, Unreal Engine, and Godot. </p>
+                    <div class="tab-titles">
+                        <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                        <p class="tab-links" onclick="opentab('experience')">Experience</p>
+                        <p class="tab-links" onclick="opentab('education')">Education</p>
+                    </div>
+                    <div class="tab-contents active-tab" id="skills">
+                        <ul>
+                            <li><span>Game Programming</span><br>Unity, Unreal Engine, Godot</li>
+                            <li><span>Software Development</span><br>C++, C, C#, Java, Python</li>
+                            <li><span>Project Management</span><br>Jira, Confluence, GitHub</li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="experience">
+                        <ul>
+                            <li><span>2024</span><br>Product Owner Co-op at Canadian Tire Financial 
+                                Services</li>
+                            <li><span>2022</span><br>Technical Specialist at Canadian Tire Corp.</li>
+                            <li><span>2023, 2024</span><br>Participated in LoJam 2023, LoJam 2024</li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="education">
+                        <ul>
+                            <li><span>2025</span><br>University of Western Ontario
+                            <br>Major in Computer Science
+                            <br>Minor in Game Development</li>
+                            
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!--
+    <div class="services">
+        <div class="container">
+            <h1 class="subtitle">My Services</h1>
+            <div class="services-list">
+                <div>
+                    <h2>Web Design</h2>
+                    <p>
+                        wah
+                    </p>
+                    <a href="#">Learn More</a>
+                </div>
+                <div>
+                    <h2>Web Design</h2>
+                    <p>
+                        wah
+                    </p>
+                    <a href="#">Learn More</a>
+                </div>
+                <div>
+                    <h2>Web Design</h2>
+                    <p>
+                        wah
+                    </p>
+                    <a href="#">Learn More</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    -->
+
+    <div id="portfolio">
+        <div class="container">
+            <h1 class="subtitle">My Work</h1>
+            <div class="work-list">
+                <div class="work">
+                    <img src="images/plinkDown.png" alt="The thumbnail for Plink-Down, a game I made for LoJam 
+                    2024.">
+                    <h2>Plink-Down</h2>
+                    <h3>Lojam 2024 Submission</h3>
+                    <p>This submission was made in Unity for LoJam 2024. I programmed the game itself 
+                        including menus, mechanics, and physics while my team mates did the art and music.</p>
+                    <a href="https://munchiepunchie.itch.io/plink-down" target="_blank">Try it on itch</a>
+                </div>
+                <div class="work">
+                    <img src="images/plinkDown.png" alt="The thumbnail for Plink-Down, a game I made for LoJam 
+                    2024.">
+                    <h2>Flappy Slappy</h2>
+                    <h3>Lojam 2024 Submission</h3>
+                    <p>This submission was made in Unity for LoJam 2024. I programmed the game itself 
+                        including menus, mechanics, and physics while my team mates did the art and music.</p>
+                    <a href="https://munchiepunchie.itch.io/plink-down" target="_blank">Try it on itch</a>
+                </div>
+                <div class="work">
+                    <img src="images/plinkDown.png" alt="The thumbnail for Plink-Down, a game I made for LoJam 
+                    2024.">
+                    <h2>Plink-Down</h2>
+                    <h3>Lojam 2024 Submission</h3>
+                    <p>This submission was made in Unity for LoJam 2024. I programmed the game itself 
+                        including menus, mechanics, and physics while my team mates did the art and music.</p>
+                    <a href="https://munchiepunchie.itch.io/plink-down" target="_blank">Try it on itch</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        var tablinks = document.getElementsByClassName("tab-links");
+        var tabcontents = document.getElementsByClassName("tab-contents");
+
+        function opentab(tabname) {
+            for (tablink of tablinks) {
+                tablink.classList.remove("active-link");
+            }
+            for (tabcontent of tabcontents) {
+                tabcontent.classList.remove("active-tab");
+            }
+
+            event.currentTarget.classList.add("active-link");
+            document.getElementById(tabname).classList.add("active-tab");
+        }
+    </script>
+
+    <!--<iframe frameborder="0" src="https://itch.io/embed-upload/12455603?color=ff3aa1" allowfullscreen="" width="1280" height="740"><a href="https://munchiepunchie.itch.io/plink-down">Play Plink-Down on itch.io</a></iframe>
+-->
 </body>
 
 </html>
