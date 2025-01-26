@@ -2,9 +2,9 @@
 <!-- Created with Inkscape (http://www.inkscape.org/) -->
 
 <svg
-   width="149"
-   height="49"
-   viewBox="0 0 39.422723 12.964665"
+   width="83.912048"
+   height="37.074459"
+   viewBox="0 0 22.20162 9.8093454"
    version="1.1"
    id="svg1"
    inkscape:version="1.4 (86a8ad7, 2024-10-11)"
@@ -23,9 +23,9 @@
      inkscape:pagecheckerboard="0"
      inkscape:deskcolor="#d1d1d1"
      inkscape:document-units="mm"
-     inkscape:zoom="5.7513468"
-     inkscape:cx="53.465738"
-     inkscape:cy="35.035272"
+     inkscape:zoom="4.0668163"
+     inkscape:cx="50.653874"
+     inkscape:cy="-20.777924"
      inkscape:window-width="1920"
      inkscape:window-height="1009"
      inkscape:window-x="1912"
@@ -37,33 +37,24 @@
     <rect
        x="61.203056"
        y="310.18823"
-       width="609.24854"
-       height="243.41948"
+       width="126.54888"
+       height="63.14341"
        id="rect1" />
   </defs>
   <g
      inkscape:label="Layer 1"
      inkscape:groupmode="layer"
-     id="layer1">
+     id="layer1"
+     transform="translate(0.18666799,-1.5876544)">
     <text
        xml:space="preserve"
        transform="matrix(0.26323032,0,0,0.25983944,-15.869862,-81.46947)"
        id="text1"
        style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:24.2804px;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;direction:ltr;white-space:pre;shape-inside:url(#rect1);display:inline;fill:#000000"><tspan
          x="61.203125"
-         y="332.33924"
-         id="tspan7"><tspan
-   style="fill:#000080"
-   id="tspan1">A</tspan><tspan
-   style="fill:#ffffff"
-   id="tspan3">ndrew</tspan> 
-</tspan><tspan
-         x="61.203125"
-         y="362.68974"
-         id="tspan10"><tspan
-           style="fill:#000080"
-           id="tspan8">M</tspan><tspan
-           style="fill:#ffffff"
-           id="tspan9">ohammed.</tspan></tspan></text>
+         y="357.39944"
+         id="tspan3"><tspan
+           style="font-weight:bold;font-size:53.9565px;font-family:Mermaid;-inkscape-font-specification:'Mermaid, Bold';opacity:1;fill:#000080"
+           id="tspan1">AM</tspan></tspan></text>
   </g>
 </svg>

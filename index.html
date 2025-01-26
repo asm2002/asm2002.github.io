@@ -8,6 +8,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
     <title>Andrew Mohammed Portfolio</title>
+    <link rel="icon" type="image/svg" href="images/logo.svg">
+    <script src="https://kit.fontawesome.com/1e32112290.js" crossorigin="anonymous"></script>
 </head>
 
 <body>
@@ -17,20 +19,32 @@
             <nav>
                 <img src="images/logo.svg" class="logo" alt="Andrew Mohammed">
                 <ul>
-                    <li><a href="#">Home</a></li>
-                    <li><a href="#">About</a></li>
-                    <li><a href="#">Portfolio</a></li>
-                    <li><a href="#">Experience</a></li>
+                    <li><a href="">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#portfolio">Portfolio</a></li>
+                    <li><a href="#experience">Experience</a></li>
                 </ul>
             </nav>
             <div class="header-text">
                 <p>Game Programmer<br>Software Developer</p>
-                <h1>Hi, I'm Andrew!</h1>
+                <h1>Hi, I'm Andrew<br>Mohammed!</h1>
             </div>
             
         </div>
     </div>
 
+    <div id="sidebar" class="hidden">
+        <div class="sidebar-container">
+            <nav>
+                <ul>
+                    <li><a href="">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#portfolio">Portfolio</a></li>
+                    <li><a href="#experience">Experience</a></li>
+                </ul>
+            </nav>
+        </div>
+    </div>
 
     <div id="about">
         <div class="container">
@@ -60,8 +74,8 @@
                         <ul>
                             <li><span>2024</span><br>Product Owner Co-op at Canadian Tire Financial 
                                 Services</li>
-                            <li><span>2022</span><br>Technical Specialist at Canadian Tire Corp.</li>
-                            <li><span>2023, 2024</span><br>Participated in LoJam 2023, LoJam 2024</li>
+                            <li><span>2022</span><br>Technical Specialist at Canadian Tire Corp</li>
+                            <li><span>2023, 2024</span><br>Participated in multiple game jams</li>
                         </ul>
                     </div>
                     <div class="tab-contents" id="education">
@@ -77,37 +91,6 @@
         </div>
     </div>
 
-    <!--
-    <div class="services">
-        <div class="container">
-            <h1 class="subtitle">My Services</h1>
-            <div class="services-list">
-                <div>
-                    <h2>Web Design</h2>
-                    <p>
-                        wah
-                    </p>
-                    <a href="#">Learn More</a>
-                </div>
-                <div>
-                    <h2>Web Design</h2>
-                    <p>
-                        wah
-                    </p>
-                    <a href="#">Learn More</a>
-                </div>
-                <div>
-                    <h2>Web Design</h2>
-                    <p>
-                        wah
-                    </p>
-                    <a href="#">Learn More</a>
-                </div>
-            </div>
-        </div>
-    </div>
-    -->
-
     <div id="portfolio">
         <div class="container">
             <h1 class="subtitle">My Work</h1>
@@ -118,34 +101,72 @@
                     <h2>Plink-Down</h2>
                     <h3>Lojam 2024 Submission</h3>
                     <p>This submission was made in Unity for LoJam 2024. I programmed the game itself 
-                        including menus, mechanics, and physics while my team mates did the art and music.</p>
+                        including menus, mechanics, and physics while my two other team mates did the art 
+                        and music.</p>
                     <a href="https://munchiepunchie.itch.io/plink-down" target="_blank">Try it on itch</a>
                 </div>
                 <div class="work">
-                    <img src="images/plinkDown.png" alt="The thumbnail for Plink-Down, a game I made for LoJam 
+                    <img src="images/flappySlappy.png" alt="The thumbnail for Plink-Down, a game I made for LoJam 
                     2024.">
                     <h2>Flappy Slappy</h2>
-                    <h3>Lojam 2024 Submission</h3>
-                    <p>This submission was made in Unity for LoJam 2024. I programmed the game itself 
-                        including menus, mechanics, and physics while my team mates did the art and music.</p>
-                    <a href="https://munchiepunchie.itch.io/plink-down" target="_blank">Try it on itch</a>
+                    <h3>Game Programming Assignment</h3>
+                    <p>This was my first assignment in CS 4482 where we had to make our first game. I 
+                        programmed the game and made all of the assets.</p>
+                    <a href="https://munchiepunchie.itch.io/flappy-slappy" target="_blank">Try it on itch</a>
                 </div>
                 <div class="work">
-                    <img src="images/plinkDown.png" alt="The thumbnail for Plink-Down, a game I made for LoJam 
+                    <img src="images/slimes.png" alt="The thumbnail for Plink-Down, a game I made for LoJam 
                     2024.">
-                    <h2>Plink-Down</h2>
-                    <h3>Lojam 2024 Submission</h3>
-                    <p>This submission was made in Unity for LoJam 2024. I programmed the game itself 
-                        including menus, mechanics, and physics while my team mates did the art and music.</p>
-                    <a href="https://munchiepunchie.itch.io/plink-down" target="_blank">Try it on itch</a>
+                    <h2>Slimes Against Humanity</h2>
+                    <h3>Lojam x GDS 2024 Submission</h3>
+                    <p>This submission was made in Godot for LoJam x GDS in 2024, a game jam in collaboration
+                        with the Western Game Design Society. This game suffered from scope creep during 
+                        the week as well as dealing with bugs I couldn't figure out on my own. This was also
+                        my first try at 3D.</p>
+                    <a href="https://munchiepunchie.itch.io/slime-against-humanity" target="_blank">Try it on itch</a>
+                </div>
+                <div class="work">
+                    <img src="images/beans.png" alt="The thumbnail for Plink-Down, a game I made for LoJam 
+                    2024.">
+                    <h2>Up the Beanstalk</h2>
+                    <h3>Lojam 2023 Submission</h3>
+                    <p>My very first game! Made in Godot as a submission for LoJam 2023 with some friends. 
+                        This project suffered some communication issues at first, but I was still pretty happy
+                        with the final product. It runs very poorly in the browser, so please download 
+                        the ZIP if you want to try it.</p>
+                    <a href="https://munchiepunchie.itch.io/up-the-beanstalk" target="_blank">Try it on itch</a>
                 </div>
             </div>
         </div>
     </div>
 
+    <div id="contact">
+        <div class="container">
+            <div class="contact-list">
+                <i class="fa-brands fa-linkedin">wah</i>
+                <i class="fa-brands fa-square-github">yahoo</i>
+                <i class="fa-solid fa-envelope">yippee</i>
+            </div>
+        </div>
+    </div>
+
+    <i class="fa-brands fa-linkedin">wah</i>
+    <i class="fa-brands fa-square-github">yahoo</i>
+    <i class="fa-solid fa-envelope">yippee</i>
+
+    <div id="footer">
+        <div class="container">
+            <p class="copyright">© 2025 Andrew Mohammed</p>
+        </div>
+    </div>
+
     <script>
+
+        // Code for changing tabs in the about section
         var tablinks = document.getElementsByClassName("tab-links");
         var tabcontents = document.getElementsByClassName("tab-contents");
+
+        const sidebar = document.getElementById('sidebar')
 
         function opentab(tabname) {
             for (tablink of tablinks) {
@@ -158,10 +179,18 @@
             event.currentTarget.classList.add("active-link");
             document.getElementById(tabname).classList.add("active-tab");
         }
+
+        window.addEventListener('scroll', () => {
+            if (window.scrollY > 350) {
+                sidebar.classList.remove('hidden');
+            }
+            else {
+                sidebar.classList.add('hidden');
+            }
+        });
+
     </script>
 
-    <!--<iframe frameborder="0" src="https://itch.io/embed-upload/12455603?color=ff3aa1" allowfullscreen="" width="1280" height="740"><a href="https://munchiepunchie.itch.io/plink-down">Play Plink-Down on itch.io</a></iframe>
--->
 </body>
 
 </html>
