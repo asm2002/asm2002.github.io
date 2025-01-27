@@ -298,7 +298,27 @@ body {
 .work-list div a:hover::after {
     height: 3px;
 }
-1.work-list div:hover{
+
+.work-list div:hover{
+    background: antiquewhite;
+    transform: translateY(-5px);
+}
+
+/* contact */
+#contact {
+    padding: 20px 0;
+}
+
+.contact-list i {
+    background: white;
+    padding: 40px;
+    font-size: 13px;
+    font-weight: 300;
+    border-radius: 15px;
+    transition: background 0.25s, transform 0.25s;
+}
+
+.contact-list i:hover{
     background: antiquewhite;
     transform: translateY(-5px);
 }
