@@ -311,8 +311,8 @@ body {
 
 .contact-list i {
     background: white;
-    height: 50px;
-    width: 50px;
+    height: 100px;
+    width: 100px;
     padding: 40px;
     border-radius: 15px;
     transition: background 0.25s, transform 0.25s;
