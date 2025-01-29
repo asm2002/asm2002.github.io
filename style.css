@@ -325,7 +325,7 @@ body {
     justify-content: center;
 }
 
-.contact-list a i {
+.contact-list a i::before {
     justify-self: center;
     align-self: center;
     height: 100px;
