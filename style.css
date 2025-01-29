@@ -309,19 +309,37 @@ body {
     padding: 20px 0;
 }
 
-.contact-list i {
+.contact-list {
+    display: grid;
+    grid-template-columns: repeat(5, minmax(100px, 1fr));
+    grid-gap: 40px;
+    margin-top: 50px;
+}
+
+.contact-list a {
     background: white;
-    height: 100px;
-    width: 100px;
     padding: 40px;
     border-radius: 15px;
     transition: background 0.25s, transform 0.25s;
+    text-decoration: none;
+    justify-content: center;
 }
 
-.contact-list i:hover{
+.contact-list a i {
+    height: 100px;
+    width: 100px;
+}
+
+.contact-list a:hover{
     background: antiquewhite;
     transform: translateY(-5px);
 }
+
+.contact-list a p {
+    justify-content: center;
+    color: navy;
+}
+
 
 /* footer */
 #footer {
