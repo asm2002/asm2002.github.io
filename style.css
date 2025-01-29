@@ -318,7 +318,7 @@ body {
 
 .contact-list a {
     background: white;
-    padding: 40px;
+    padding: 10px;
     border-radius: 15px;
     transition: background 0.25s, transform 0.25s;
     text-decoration: none;
@@ -326,6 +326,8 @@ body {
 }
 
 .contact-list a i {
+    justify-self: center;
+    align-self: center;
     height: 100px;
     width: 100px;
 }
@@ -336,7 +338,8 @@ body {
 }
 
 .contact-list a p {
-    justify-content: center;
+    justify-self: center;
+    align-self: center;
     color: navy;
 }
 
