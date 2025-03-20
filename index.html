@@ -50,14 +50,17 @@
         <div class="container">
             <div class="row">
                 <div class="about-col-1">
-                    <img src="images/lojam_2024.jpg">
-                    <p>Me and my friends at LoJam x GDS 2024</p>
+                    <picture>
+                        <source srcset="images/lojam_2024.jpg" media="(min-width:769px)">
+                        <source srcset="images/headshot1.png" media="(max-width:768px)">
+                        <img src="images/lojam_2024.jpg">
+                    </picture>
                 </div>
                 <div class="about-col-2">
                     <h1 class="subtitle">About Me</h1>
-                    <p>I am a Computer Science student at the University of Western Ontario 
-                        that is doing a minor in Game Programming. I have experience with most
-                        programming languages, and with Unity and Godot. </p>
+                    <p> I am a game programmer and software developer that works a lot with Unity amongst other programming 
+                        languages, tools and engines! I love making things, and in my free time I play guitar and practice 
+                        production.</p>
                     <div class="tab-titles">
                         <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
                         <p class="tab-links" onclick="opentab('experience')">Experience</p>
@@ -95,6 +98,33 @@
         <div class="container">
             <h1 class="subtitle">My Work</h1>
             <div class="work-list">
+                <div class="work">
+                    <img src="images/breakingBob1.png" alt="The thumbnail for Plink-Down, a game I made for LoJam 
+                    2024.">
+                    <h2>Breaking Bob</h2>
+                    <h3>Lojam x GDS 2025 Winner</h3>
+                    <p>This game was the winner for both People's Choice and Best Mechanics/Fun at the second annual
+                        Lojam x GDS game jam! This game works best with a controller, I recommend trying it out!
+                    </p>
+                    <h4>My Contributions:</h4>
+                    <p> I did all of the gameplay programming and controls, the UI programming, the environment generation, 
+                        and the music. My partner John did all of the art and Dylan did the enemy AI and the NavMesh.
+                    </p>
+                    <a href="https://jkrupa.itch.io/breaking-bob" target="_blank">Try it on itch</a>
+                </div>
+                <div class="work">
+                    <img src="images/microMovers.png" alt="The thumbnail for Plink-Down, a game I made for LoJam 
+                    2024.">
+                    <h2>Micro Movers</h2>
+                    <h3>GDS MicroJam Winner</h3>
+                    <p>This game was made in 2 days for the GDS MicroJam and won best art. This was made entirely in Unity 
+                        with the assets being made in aseprite and the music being made in FamiStudio.</p>
+                    <h4>My Contributions:</h4>
+                    <p> I programmed the inventory system and the player movement, and I also did the music. My partner Dylan
+                        did the art and the gameplay loop.
+                    </p>
+                    <a href="https://cl0sethew0rld.itch.io/micro-movers" target="_blank">Try it on itch</a>
+                </div>
                 <div class="work">
                     <img src="images/plinkDown.png" alt="The thumbnail for Plink-Down, a game I made for LoJam 
                     2024.">
@@ -144,17 +174,7 @@
                     <p>I programmed all of the enemies and the scene transitions.</p>
                     <a href="https://munchiepunchie.itch.io/up-the-beanstalk" target="_blank">Try it on itch</a>
                 </div>
-                <div class="work">
-                    <img src="images/microMovers.png" alt="The thumbnail for Plink-Down, a game I made for LoJam 
-                    2024.">
-                    <h2>Micro Movers</h2>
-                    <h3>GDS MicroJam Submission</h3>
-                    <p>This game was made in 2 days for the GDS MicroJam. This was made entirely in Unity with the 
-                        assets being made in aseprite and the music being made in FamiStudio.</p>
-                    <h4>My Contributions:</h4>
-                    <p>I programmed the inventory system and the player movement. I also made the music.</p>
-                    <a href="https://cl0sethew0rld.itch.io/micro-movers" target="_blank">Try it on itch</a>
-                </div>
+                
             </div>
         </div>
     </div>
